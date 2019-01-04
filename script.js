@@ -3,8 +3,8 @@ let positiveScore = 0;
 let negativeScore = 0;
 let colorNameIndex = 1;
 
-const changeColorName = function(a) {
-  updateScore(a.id, colors[colorNameIndex]);
+const changeColorName = function(box) {
+  updateScore(box.id, colors[colorNameIndex]);
   colorNameIndex = Math.floor(Math.random() * 4);
   const colorIndex = Math.floor(Math.random() * 4);
 
