@@ -1,0 +1,58 @@
+html{
+  font-family: serif;
+}
+
+.colorName {
+  text-align: center;
+  font-size: 50px;
+}
+.main {
+  width: 80%;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+.color_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.red {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.blue {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+.green {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+.yellow {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+.p_score {
+  text-align: left;
+  padding-left: 35px;
+  color: green;
+  display: flex;
+}
+.p_score_display {
+  text-align: center;
+  color: green;
+}
+.n_score {
+  text-align: right;
+  color: red;
+  padding-left: 35px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.n_score_display {
+  text-align: center;
+  color: red;
+}

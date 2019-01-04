@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eye Test</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <h1 class="colorName" id="Heading">BLUE</h1>
+    <div class="main">
+      <div class="color_box">
+        <div
+          id="red"
+          class="red"
+          onclick="changeColorName(this)"
+        ></div>
+        <div
+          id="blue"
+          class="blue"
+          onclick="changeColorName(this)"
+        ></div>
+        <div>
+          <h1 class="p_score" >POSITIVE SCORE</h1>
+          <h1 class="p_score_display" id="score"></h1>
+        </div>
+      </div>
+      <div style="display:flex; flex-wrap: wrap">
+        <div
+          id="green"
+          class="green"
+          onclick="changeColorName(this)"
+        ></div>
+        <div
+          id="yellow"
+          class="yellow"
+          onclick="changeColorName(this)"
+        ></div>
+        <div>
+          <h1 class="n_score" >NEGATIVE SCORE</h1>
+          <h1 class="n_score_display" id="n_score"></h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
