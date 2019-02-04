@@ -2,7 +2,6 @@ const colors = ['red', 'blue', 'green', 'yellow'];
 let positiveScore = 0;
 let negativeScore = 0;
 let colorNameIndex = 1;
-let gameTime = window.prompt('Enter Game Time (Seconds) ');
 
 const changeColorName = function(box) {
   updateScore(box.id, colors[colorNameIndex]);
@@ -24,16 +23,3 @@ const updateScore = function(id, color) {
   negativeScore = negativeScore + 10;
   document.getElementById('n_score').innerText = negativeScore;
 };
-
-let timeCount = 0;
-let playingTime = setInterval(() => {
-  if (timeCount == gameTime) {
-    clearInterval(playingTime);
-    window.confirm(
-      `Game Over\nFinal Score : ${positiveScore -
-        negativeScore}\nWant to play again?`
-    );
-    location.reload();
-  }
-  timeCount++;
-}, 1000);

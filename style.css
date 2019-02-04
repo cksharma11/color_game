@@ -1,5 +1,5 @@
-html{
-  font-family: serif;
+html {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .colorName {
@@ -19,20 +19,28 @@ html{
   width: 200px;
   height: 200px;
   background-color: red;
+  border: 1px solid black;
+  box-shadow: 3px 3px 5px gray;
 }
 .blue {
   width: 200px;
   height: 200px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 5px gray;
   background-color: blue;
 }
 .green {
   width: 200px;
   height: 200px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 5px gray;
   background-color: green;
 }
 .yellow {
   width: 200px;
   height: 200px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 5px gray;
   background-color: yellow;
 }
 .p_score {
